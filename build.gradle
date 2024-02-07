@@ -43,3 +43,6 @@ tasks.named('asciidoctor') {
     inputs.dir snippetsDir
     dependsOn test
 }
+bootJar {
+    mainClassName = 'com.example.elevatorsapp.ElevatorsApplication'
+}

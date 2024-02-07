@@ -35,7 +35,7 @@
 
         public void requestElevator(int pickupFloor, int destinationFloor) {
             Elevator closestElevator = elevators.stream()
-                    .filter(elevator -> elevator.isWithinServiceZone(pickupFloor) && elevator.isWithinServiceZone(destinationFloor))
+                    .filter(elevator -> !elevator.isOccupied() && elevator.isWithinServiceZone(pickupFloor) && elevator.isWithinServiceZone(destinationFloor))
                     .min(Comparator.comparingInt(e -> Math.abs(e.getCurrentFloor() - pickupFloor)))
                     .orElse(null);
 

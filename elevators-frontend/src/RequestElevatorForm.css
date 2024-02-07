@@ -4,9 +4,9 @@
 
 .RequestElevatorForm input,
 .RequestElevatorForm button {
-    margin: 0 5px;
-    padding: 10px;
-    font-size: 16px;
+    margin: 0 10px;
+    padding: 20px;
+    font-size: 20px;
 }
 
 .RequestElevatorForm button {
