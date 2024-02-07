@@ -17,19 +17,19 @@
             elevators = new ArrayList<>();
 
             for (int i = 0; i < 4; i++) {
-                elevators.add(new Elevator(i, 0, 6, random.nextInt(7), false)); // i określa startowe piętro
+                elevators.add(new Elevator(i, 0, 6, random.nextInt(7), false));
             }
 
             for (int i = 4; i < 8; i++) {
-                elevators.add(new Elevator(i, 7, 13, random.nextInt(6)+7,false)); // i określa startowe piętro
+                elevators.add(new Elevator(i, 7, 13, random.nextInt(6)+7,false));
             }
 
             for (int i = 8; i < 12; i++) {
-                elevators.add(new Elevator(i, 14, 20, random.nextInt(6)+14,false)); // i określa startowe piętro
+                elevators.add(new Elevator(i, 14, 20, random.nextInt(6)+14,false));
             }
 
             for (int i = 12; i < 16; i++) {
-                elevators.add(new Elevator(i, 0, 20, random.nextInt(21), true)); // i określa startowe piętro
+                elevators.add(new Elevator(i, 0, 20, random.nextInt(21), true));
             }
         }
 
