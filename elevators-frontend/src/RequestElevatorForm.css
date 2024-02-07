@@ -1,0 +1,22 @@
+.RequestElevatorForm {
+    margin-top: 20px;
+}
+
+.RequestElevatorForm input,
+.RequestElevatorForm button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.RequestElevatorForm button {
+    color: white;
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.RequestElevatorForm button:hover {
+    background-color: #218838;
+}

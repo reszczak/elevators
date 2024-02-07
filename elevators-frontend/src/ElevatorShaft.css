@@ -1,0 +1,42 @@
+.ElevatorShaft {
+    height: 1050px;
+    width: 100px;
+    border: 2px solid #333;
+    margin: 0 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.Floor {
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.Elevator {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: 0;
+    transition: bottom 1s ease-in-out;
+
+}
+.green-elevator {
+    background-color: green;
+}
+
+.yellow-elevator {
+    background-color: yellow;
+}
+
+.red-elevator {
+    background-color: red;
+}
+
+.blue-elevator {
+    background-color: blue;
+}
