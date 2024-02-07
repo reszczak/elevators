@@ -41,7 +41,7 @@
 ### To run the application, you need to have `Java` and `Node.js` installed on your machine.
 - Clone the repository
 - Open the terminal and navigate to the `elevators-app` directory
-- Run the following command to start the backend:
+- Run the following command to build the backend:
 ```bash
 ./gradlew bootJar
 ```
